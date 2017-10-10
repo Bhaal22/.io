@@ -1,0 +1,33 @@
+/* .intro { */
+/*     display: table; */
+/*     width: 100%; */
+/*     height: 100%; */
+/*     text-align: center; */
+/*     color: black; */
+/*     background: url(../img/background.jpg) no-repeat bottom center scroll; */
+/*     background-color: #000; */
+/*     webkit-background-size: cover; */
+/*     moz-background-size: cover; */
+/*     background-size: cover; */
+/*     -o-background-size: cover; */
+/* } */
+
+/* .wc-logo-text { */
+/*     padding: 0px 0px 0px 0px; */
+/*     fontfamily: Century Gothic,CenturyGothic,AppleGothic,sansserif; */
+/*     color: black; */
+/*     fontsize: 72px; */
+/*     verticalalign: texttop; */
+/*     position: relative; */
+/*     top: 15px; */
+/*     left: 50px; */
+/* } */
+
+/* .wc-logo { */
+/*     paddingtop: 0px 0px 0px 0px; */
+/* } */
+
+/* .logo { */
+/*     height: 48px; */
+/*     width: 48px; */
+/* } */
