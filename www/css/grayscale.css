@@ -23,10 +23,10 @@ h4,
 h5,
 h6 {
   font-family: 'Century Gothic', 'CenturyGothic', AppleGothic,sansserif;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0 0 35px;
   letter-spacing: 1px;
-  text-transform: uppercase; }
+}
 
 p {
   font-size: 18px;
@@ -117,6 +117,9 @@ a {
 
 .masthead .intro-body .brand-heading {
     font-size: 50px;
+    padding-top: 95px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sansserif;
+    color: black;
 }
 
 .masthead .intro-body .intro-text {
@@ -130,7 +133,10 @@ a {
     }
 
     .masthead .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 65px;
+        padding-top: 83px;
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sansserif;
+        color: black;
     }
     .masthead .intro-body .intro-text {
         font-size: 22px;
@@ -239,7 +245,7 @@ body {
 
 .wc-logo-text {
     padding: 0px 0px 0px 0px;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sansserif;
+    
     color: black;
     font-size: 72px;
     vertical-align: text-top;
@@ -248,10 +254,33 @@ body {
     left: -50px;
 }
 
-.wc-logo {
-    padding-top: 0px 0px 0px 0px;
-}
+
 
 .logo {
     height: 48px;
     width: 48px;
+}
+
+.white-shadow {
+  text-shadow: 0px 0px 15px rgba(255,255,255,1), 0px 0px 20px rgba(255,255,255,1);
+}
+
+@media (min-width: 768px) {
+
+  .white-shadow {
+    text-shadow: 0px 0px 0px rgba(255,255,255,0)
+  }
+}
+
+.wc-logo {
+  position: absolute;
+  left: -20px;
+}
+
+@media (min-width: 992px) {
+
+  .wc-logo {
+    position: absolute;
+    left: -60px;
+  }
+}
